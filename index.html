@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Sentinel AI</title>
+    <meta name="description" content="AI-powered security analysis tool. Simulate White Hat, Black Hat, and 4 other hacker personas to uncover vulnerabilities, attack scenarios, and mitigation strategies for any target." />
+    <meta name="keywords" content="cybersecurity, security analysis, vulnerability scanner, AI hacking, penetration testing, ethical hacking" />
+    <meta name="author" content="Cyber Sentinel AI" />
+    <meta name="theme-color" content="#0e7490" />
+    <link rel="canonical" href="https://cybersentinel.ai/" />
+
+    <!-- Open Graph (Facebook, LinkedIn, Discord) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cybersentinel.ai/" />
+    <meta property="og:title" content="Cyber Sentinel AI — Uncover Vulnerabilities Before Hackers Do" />
+    <meta property="og:description" content="Leverage AI-driven hacker personas to perform comprehensive security analysis on your digital assets. Get insights from multiple perspectives." />
+    <meta property="og:image" content="https://cybersentinel.ai/og-image.png" />
+    <meta property="og:site_name" content="Cyber Sentinel AI" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@cybersentinelai" />
+    <meta name="twitter:title" content="Cyber Sentinel AI — Uncover Vulnerabilities Before Hackers Do" />
+    <meta name="twitter:description" content="Simulate 6 hacker personas powered by Gemini AI to uncover vulnerabilities, attack scenarios, and fixes." />
+    <meta name="twitter:image" content="https://cybersentinel.ai/og-image.png" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* For custom scrollbar styling */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #111827; /* gray-900 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4b5563; /* gray-600 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280; /* gray-500 */
+      }
+      body {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+
+      .bg-grid-gray-700\/\[0\.2\] {
+        background-image: linear-gradient(to right, rgba(55, 65, 81, 0.2) 1px, transparent 1px), linear-gradient(to bottom, rgba(55, 65, 81, 0.2) 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .animate-fade-in {
+        animation: fade-in-up 0.6s ease-out forwards;
+      }
+
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+        100% { translateY(0px); }
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes neon-pulse {
+        0%, 100% {
+          box-shadow: 0 0 5px #a855f7, 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 40px #9333ea;
+        }
+        50% {
+          box-shadow: 0 0 10px #c084fc, 0 0 20px #c084fc, 0 0 40px #c084fc, 0 0 80px #a855f7;
+        }
+      }
+      .animate-neon-pulse {
+        animation: neon-pulse 4s ease-in-out infinite;
+      }
+
+      @keyframes neon-pulse-cyan {
+        0%, 100% {
+          box-shadow: 0 0 5px #22d3ee, 0 0 10px #22d3ee, 0 0 20px #22d3ee, 0 0 40px #06b6d4;
+        }
+        50% {
+          box-shadow: 0 0 10px #67e8f9, 0 0 20px #67e8f9, 0 0 40px #67e8f9, 0 0 80px #22d3ee;
+        }
+      }
+      .animate-neon-pulse-cyan {
+        animation: neon-pulse-cyan 4s ease-in-out infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "jspdf": "https://esm.sh/jspdf@^2.5.1",
+    "html2canvas": "https://esm.sh/html2canvas@^1.4.1",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

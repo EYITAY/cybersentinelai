@@ -1,0 +1,6 @@
+{
+  "name": "Cyber Sentinel AI",
+  "description": "An AI-powered security analysis tool that simulates different hacker personas (White, Red, Black, Grey Hat) to identify vulnerabilities, detail attack vectors, and provide mitigation strategies for your websites and applications.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
